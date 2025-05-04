@@ -9,28 +9,19 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo">MyPortfolio</div>
-  
-    <!-- Hidden checkbox -->
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-  
-    <div class="nav-links">
-      <a href="./index.html">Home</a>
-      <a href="#about-text">About</a>
-      <a href="./project.html">Projects</a>
-      <a href="./contact.html">Contact</a>
-
+    <div class="logo">Portfolio</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
-<!-- <section class="main-feature">
-    <div class="main-content">
-        <h1>Hi ! I Am Ishan Shrestha</h1>
-        <p>Aspiring Web Developer | SEE Graduate</p>
-        <button><a href="./about.html">Click Here For More Detail. </a></button>
-    </div>
-  </section> -->
-  <!-- about  -->
   <section class="about-section">
     <div class="container">
       <div class="about-image">
@@ -105,9 +96,10 @@
 <p>9813212751</p>
 <p> Kathmandu, Nepal</p>
 </div>
+</section>
 <footer class="footer">
     <div class="footer-content">
-      <p>© 2025 Ishan Shrestha. All rights reserved.</p>
+      <p>&copy;2025 Ishan Shrestha. All rights reserved</p>
       <div class="social-links">
         <a href="#">GitHub</a>
         <a href="#">LinkedIn</a>
@@ -115,5 +107,6 @@
       </div>
     </div>
   </footer>
+  <script src="./script.js"></script>
 </body>
 </html>
