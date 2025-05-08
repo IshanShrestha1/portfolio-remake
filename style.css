@@ -185,11 +185,6 @@ body {
     padding-top: 20px;
   }
   /* project section  */
-  .card-img{
-    width: 100%;
-    height: 180px;
-    padding-top: 10px;
-  }
   .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow in box*/
     transition: 0.3;
@@ -199,6 +194,11 @@ body {
     background-color: rgb(201, 196, 196);
     padding: 5px;
     border-radius: 5%;
+  }
+  .card img{
+    width: 100%;
+    height: 180px;
+    padding-top: 10px;
   }
   .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -214,7 +214,7 @@ body {
   .my-project{
     text-align: center;
   }
-  .card-text, .card-head{
+  .card h2,p{
     text-align: center;
   }
   .card:hover{
