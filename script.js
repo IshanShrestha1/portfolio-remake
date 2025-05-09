@@ -48,3 +48,24 @@ const container = document.getElementById("project-container");
     `;
     container.appendChild(card);
   });
+
+  // service section 
+  const services = [
+    {
+      Image: "images/JS.jpg",
+      Title: "Web Design",
+      Description: "I create modern and responsive website designs tailored to your needs.",
+    },
+  ];
+  const sev = document.getElementById("service-container");
+  services.forEach(service => {
+
+    const ser = document.createElement("div");
+    ser.className = "service-box";
+    ser.innerHTML = `
+    <img src="${service.Image}" alt="${service.Title}"/>
+    <h3>${service.Title}</h3>
+    <p>${service.Description}</p>
+    `;
+    sev.appendChild(ser);
+  });
