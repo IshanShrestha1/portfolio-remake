@@ -69,3 +69,34 @@ const container = document.getElementById("project-container");
     `;
     sev.appendChild(ser);
   });
+
+  // review section 
+  const reviews = [
+    {
+      Image: "images/profile.jpg",
+      title: "Elon Musk",
+      Description: "great work! very creative and profession",
+    },
+    {
+      Image: "images/profile.jpg",
+      title: "Elon Musk",
+      Description: "great work! very creative and profession",
+    },
+    {
+      Image: "images/profile.jpg",
+      title: "Elon Musk",
+      Description: "great work! very creative and profession",
+    },
+  ];
+  const rev = document.getElementById("review");
+  reviews.forEach(review => {
+
+    const revs = document.createElement("div");
+    revs.className = "review1";
+    revs.innerHTML = `
+    <img src="${review.Image}" alt="${review.title}"/>
+    <h4>${review.title}</h4>
+    <p>${review.Description}</p>
+    `;
+    rev.appendChild(revs);
+  });

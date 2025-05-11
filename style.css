@@ -306,11 +306,13 @@ body {
   display: flex;
   justify-content: center;
   padding: 5px;
+  
 }
 .review img{
   border-radius: 50%;
   border: 2px solid black;
   height: 100px;
+  width: 100px;
 }
 .review1{
   border: 2px solid black;
@@ -318,7 +320,9 @@ body {
   text-align: center;
   padding: 20px;
   padding-bottom: 55px;
-  padding-top: 55px;
+  padding-top: 55px;  
+  width: 250px;
+
 }
 
 .review1 h4{
